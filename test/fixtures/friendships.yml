@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  friend_a: MyText
+  friend_b: MyText
+
+two:
+  friend_a: MyText
+  friend_b: MyText

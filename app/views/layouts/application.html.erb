@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bookface</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 main">
+          <% if current_user %>
+            <h4>Hello <%= current_user[:name] %> welcome to BookFace!(<%= link_to "Logout", destroy_user_session_path, method: :delete %>)</h4>
+          <% end %>
+        </div>        
+      </div>
+      <%= yield %>
+  </body>
+</html>
