@@ -13,6 +13,13 @@ Clone the repository by typing:
 
 ```
 
+## DEMO
+The system is currently hosted in heroku
+See the demo here:
+```
+https://socialmediapostbookface.herokuapp.com/
+```
+
 ### Installing
 
 ```
