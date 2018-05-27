@@ -3,7 +3,7 @@
 This is a social media system inspired from bootcamp that I attended. Created using ruby on rails and devise gem for user login. The system allows you to connect with your friends using posts.
 You can follow the full tutorial in this link: 
 ```
-`https://tandahq.github.io/manila-rails-bootcamp-2018/`.
+https://tandahq.github.io/manila-rails-bootcamp-2018/
 ```
 ## Getting Started
 
@@ -16,9 +16,9 @@ Clone the repository by typing:
 ## DEMO
 The system is currently hosted in heroku
 See the demo here:
-```
+
 https://socialmediapostbookface.herokuapp.com/
-```
+
 
 ### Installing
 
