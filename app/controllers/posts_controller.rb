@@ -4,12 +4,10 @@ class PostsController < ApplicationController
   end
 
   def create
-    puts "TESTTTT 1 #{params.to_json}"
-    puts "Testtttt #{current_user[:name]}"
     post = Post.new
     post.contents = params[:contents]
     post.user_id  = current_user[:id]
-    post.name     = "GG"
+    post.name     = current_user[:name]
     post.save
     load_all_data
     render :index
